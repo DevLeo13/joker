@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clear{clear: both;}
+
+body{
+    background: black;
+}
+
+img{
+    position: fixed;
+    width: 100%;
+    filter: blur(15px);
+}
+
+.joker img{
+    border-radius: 20px;
+    top: 120px;
+    left: 320px;
+    width: 1280px;
+    position: fixed;
+    filter: unset;
+}
+
+header .menu{
+    position: fixed;
+    left: 400px;
+    top: 120px;
+    width: 300px;
+}
+
+.menu ul{
+    display: flex;
+    color: white; 
+}
+
+.menu li{
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.menu li:hover{
+    border-bottom: 1px solid white;
+}
+
+.description{
+    width: 300px;
+    height: 120px;
+    position: fixed;
+    left: 1300px;
+    top: 90px;
+    border-bottom: gray solid 1px;
+}
+
+
+
+.description h1{
+    position: fixed;
+    left: 1355px;
+    top: 160px;
+    color: white;
+    font-style: italic;
+    font-family: 'Unbounded', cursive;
+
+}
+
+.description .face{
+    cursor: pointer;
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    filter: unset;
+    left: 1495px;
+    top: 160px;
+}
+
+.description .youtube{
+    cursor: pointer;
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    filter: unset;
+    left: 1520px;
+    top: 158px;
+}
+
+.description .twit{
+    cursor: pointer;
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    filter: unset;
+    left: 1555px;
+    top: 158px;
+}
+
+section .conteudo{
+    position: fixed;
+}
+
+.conteudo h1{
+    position: fixed;
+    left: 500px;
+    top: 300px;
+    width: 300px;
+    color: white;
+    font-size: 100px;
+    font-family: 'Unbounded', cursive;
+}
+
+.conteudo p{
+    position: fixed;
+    left: 500px;
+    top: 400px;
+    width: 700px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    padding: 10px;
+}
+
+section .conteudo h2{
+    font-size: 24px;
+    font-family: 'Unbounded', cursive;
+    position: fixed;
+    left: 450px;
+    top: 700px;
+    color: white;
+}
+
+section .conteudo h4{
+    font-size: 24px;
+    font-family: 'Unbounded', cursive;
+    font-weight: lighter;
+    position: fixed;
+    left: 450px;
+    top: 715px;
+    color: white;
+}
+
+.box .elenco .borda{
+    position: fixed;
+    border-left: 1px gray solid;
+    height: 720px;
+    left: 1300px;
+    top: 120px;
+}
+
+.box .elenco{
+    word-spacing: 10px;
+    position: fixed;
+    left: 1350px;
+    top: 250px;
+    color: white;
+    font-style: italic;
+    font-family: 'Unbounded', cursive;
+}
+
+.box .elenco h5{
+    padding: 10px;
+    font-weight: 300;
+}
+.box .elenco h3{
+    position: fixed;
+    left: 1370px;
+    top: 630px;
+}
+
+.box .elenco iframe{
+    /*border-radius: 10px;*/
+    position: fixed;
+    left: 1300px;
+    top: 650px;
+    width: 300px;
+    height: 150px;
+}
+
